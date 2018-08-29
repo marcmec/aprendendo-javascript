@@ -35,7 +35,6 @@ git remote add upstream git@github.com:mayararysia/aprendendo-javascript.git
 
 Alguns exemplos:
 
-- Para uma nova lista: `git checkout -b novaListaX`
 - Para adicionar exercício na lista: `git checkout -b novoexercicioListaX`
 - Para erros: `git checkout -b correcaoListaX`
 
@@ -75,7 +74,7 @@ git push -f origin master
 ### Boas práticas
 
 - Antes de enviar sua contribuição se certifique de que está enviando apenas um **único** commit que represente o que foi feito;
-- Senpre Estude o Git em caso de dúvidas.
+- Sempre Estude o Git em caso de dúvidas.
 
 Obrigada! :heart:
 

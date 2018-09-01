@@ -10,7 +10,7 @@ let aprendendo=(a,b,c) =>{
         console.log('Você passou de semestre! com \n' + resultado + ' Na média')
 
     } else if(resultado<6){
-        console.log('Você precisa tirar: \n' + recuperacao+ '\n para passar de semestre')
+        console.log('Sua nota: '+resultado+'\n você precisa tirar' + recuperacao+ '\n para passar de semestre')
     
         
 

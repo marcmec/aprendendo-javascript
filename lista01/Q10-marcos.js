@@ -8,8 +8,12 @@ cardapio={
 
 }
 
-let conta=(h,c,f,r) =>(
+let conta=() =>{
+    let h = parseInt(window.prompt("Quantos hambúrgueres vocês vai querer?"))
+    let c= parseInt(window.prompt("Quantos Cheeseburgueres você vai querer?"))
+    let f= parseInt(window.prompt("Quantas porções de fritas ?"))
+    let r= parseInt(window.prompt("Quantos refrigerantes?"))
 
     console.log("total a pagar: R$" + (h*cardapio.hamburguer+c*cardapio.cheeseburguer+f*cardapio.fritas+r*cardapio.refrigerante))
-)
-conta(1,1,1,1)//informe em sequência do cardápio quanto que voce consumiu hamburguer,cheeseburguer,fritas e refrigerante
+}
+conta()

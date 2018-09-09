@@ -1,16 +1,8 @@
 //area e perimetro
-let largura=5
-let altura=2
+let vazio=() =>{
+    let largura= parseFloat(window.prompt("Digite o valor da largura: "))
+    let altura= parseFloat(window.prompt("Digite o valor da altura"))
 
-
-function areas(){
-
-    return largura+altura
+console.log(largura+altura, "\n" ,largura*altura)
 }
-
-function perimetro(){
-
-    return largura*altura
-}
-
-console.log(areas(), "\n" ,perimetro())
+vazio()

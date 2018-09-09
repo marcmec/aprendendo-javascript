@@ -1,17 +1,12 @@
 //eleições
-let eleitores=50
-let brancos= 10
-let nulos= 5
+let eleitores=parseInt(window.prompt("Digite a quantidade de eleitores"))
+let brancos= parseInt(window.prompt("Digite quantos votos foram brancos"))
+let nulos= parseInt(window.prompt("Digite quantos votos foram nulos"))
 
 
-function percentagem1(){
 
-    return (brancos*100)/50
-}
 
-function percentagem2(){
+console.log('% dos brancos é :' +(brancos*100)/eleitores)
 
-    return (nulos*100)/50
-}
-console.log('% dos nulos é ' + percentagem2())
-console.log('% dos brancos é ' + percentagem1())
+console.log('% dos nulosé :'+ (nulos*100)/eleitores)
+

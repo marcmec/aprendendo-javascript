@@ -2,14 +2,19 @@
 
 
 
-let nota1=11
-let a=true
+let nota=parseFloat(window.prompt("Digite um valor"))
+let a=false
+if(nota>10){
+    a=true
 
 while(a){
 
-    console.log(nota1)
+    console.log("Voce entrou no loop do maior que 10: "+nota)
+}
+}else if(nota<0){
+    a=true
+while(a){
 
-    if(nota1===11){
-        a=false
-    }
+    console.log('você entrou no loop do menor que 0: '+nota)
+}
 }

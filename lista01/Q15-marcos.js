@@ -1,8 +1,8 @@
 
 //custo de um carro
-let fabrica=100//dizer o custo de fabrica do carro
-let percentualfab=0.28//28%
-let impostos=0.45//45%
+let fabrica=parseFloat(window.prompt("Diga o valor do custo de fabrica!"))
+let percentualfab=parseFloat(window.prompt("Diga o valor em % aplicado ao valor da fabrica!"))
+let impostos=parseFloat(window.prompt("Diga o valor do imposto em %:"))
 let distribuidor=fabrica+(percentualfab*fabrica)
 let precoparaConsumidor= distribuidor +(distribuidor*impostos)
 
